@@ -1,0 +1,20 @@
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Kind</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @videos.each do |video| %>
+    <tr>
+      <td>
+        <%= video.title %>
+      </td>
+      <td>
+        <%= video.kind %>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

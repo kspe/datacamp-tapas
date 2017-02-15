@@ -7,4 +7,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :trackable, :validatable
 
   validates :subscription, inclusion: { in: SUBSCRIPTION_TYPES }
+
+  def paid_subscriber?
+    subscription == 'paid'
+  end
 end
