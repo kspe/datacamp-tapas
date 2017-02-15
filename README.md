@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Datacamp-Tapas
 
-Things you may want to cover:
+### TODO
+- [ ] Setup Rails app, DB
+- [ ] Setup RVM Ruby version
+- [ ] Add required gems, Devise, Bootstrap
+- [ ] Add model for User
+- [ ] Add model for Subscription 1:1 with User
+- [ ] Add registration views with plan selection
+- [ ] Add Video model
+- [ ] Allow user to view Videos
+- [ ] Differentiate Videos list access for a User based on subscription
 
-* Ruby version
+### Setup development
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Create DB using `rake db:create` command
+* Migrate DB using `rake db:migrate`
+* Run local WebRick server using `rails server`
