@@ -8,8 +8,8 @@
 - [x] Add required gems, Devise, Bootstrap
 - [x] Add model for User
 - [x] ~~Add model for Subscription 1:1 with User~~ Use column `subscription` to handle the subscriptions
-- [ ] Add registration views with plan selection
-- [ ] Add Video model
+- [x] Add registration views with plan selection
+- [x] Add Video model
 - [ ] Allow user to view Videos
 - [ ] Differentiate Videos list access for a User based on subscription
 - [ ] Add paying option using Braintree/Stripe
@@ -33,5 +33,6 @@ Last step is to install required Gems with command `bundle install`
 
 #### Rails
 * Create DB using `rake db:create` command
-* Migrate DB using `rake db:migrate`
+* Migrate DB using `rake db:migrate` command
+* Import DB seeds using `rake db:seed` command
 * Run local WebRick server using `rails server`
