@@ -5,6 +5,10 @@ class VideosController < ApplicationController
     @videos = get_videos_for(current_user)
   end
 
+  def show
+    @video = Video.find(params[:id])
+  end
+
   private
 
   def get_videos_for(user)
