@@ -11,8 +11,18 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav navbar-right">
+        <% unless user_signed_in? %>
         <li class="active">
-          <%= link_to 'Register', '#', class: 'active' %>
+          <%= link_to 'Register', new_user_registration_path, class: 'active' %>
+        </li>
+        <% end %>
+        <li>
+          <% if user_signed_in? %>
+            <%= link_to 'Sign out', destroy_user_session_path, method: :delete  %>
+          <% else %>
+            <%= link_to 'Sign in', new_user_session_path  %>
+          <% end %>
+        </li>
         </li>
       </ul>
     </div>

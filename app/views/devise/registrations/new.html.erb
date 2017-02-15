@@ -17,6 +17,14 @@
         <%= f.label :password_confirmation %>
         <%= f.password_field :password_confirmation, class: 'form-control' %>
       </div>
+      <div class="well">
+        Select your subscription type
+        <div class="form-group">
+          <%= radio_button_tag 'user[subscription]', 'free' %>Free
+
+          <%= radio_button_tag 'user[subscription]', 'paid' %>Paid
+        </div>
+      </div>
       <%= f.submit t('.sign_up', default: 'Sign up'), class: 'btn btn-primary' %>
     <% end %>
   </div>
