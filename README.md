@@ -12,6 +12,7 @@
 - [ ] Add Video model
 - [ ] Allow user to view Videos
 - [ ] Differentiate Videos list access for a User based on subscription
+- [ ] Add paying option using Braintree/Stripe
 
 ### Setup development
 
