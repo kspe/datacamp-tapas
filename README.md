@@ -4,8 +4,8 @@
 
 ### TODO
 - [x] Setup Rails app, DB
-- [ ] Setup RVM Ruby version
-- [ ] Add required gems, Devise, Bootstrap
+- [x] Setup RVM Ruby version
+- [x] Add required gems, Devise, Bootstrap
 - [ ] Add model for User
 - [ ] Add model for Subscription 1:1 with User
 - [ ] Add registration views with plan selection
