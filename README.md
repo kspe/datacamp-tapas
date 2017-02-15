@@ -7,7 +7,7 @@
 - [x] Setup RVM Ruby version
 - [x] Add required gems, Devise, Bootstrap
 - [x] Add model for User
-- [ ] Add model for Subscription 1:1 with User
+- [x] ~~Add model for Subscription 1:1 with User~~ Use column `subscription` to handle the subscriptions
 - [ ] Add registration views with plan selection
 - [ ] Add Video model
 - [ ] Allow user to view Videos
