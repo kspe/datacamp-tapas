@@ -10,8 +10,8 @@
 - [x] ~~Add model for Subscription 1:1 with User~~ Use column `subscription` to handle the subscriptions
 - [x] Add registration views with plan selection
 - [x] Add Video model
-- [ ] Allow user to view Videos
-- [ ] Differentiate Videos list access for a User based on subscription
+- [x] Allow user to view Videos
+- [x] Differentiate Videos list access for a User based on subscription
 - [ ] Add paying option using Braintree/Stripe
 
 ### Setup development
